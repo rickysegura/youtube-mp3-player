@@ -9,7 +9,7 @@ declare global {
 }
 
 export interface YouTubeMp3PlayerProps {
-  youtubeLinks?: string[];
+  youtubeLinks: string[];
 }
 
 interface VideoInfo {
@@ -18,11 +18,7 @@ interface VideoInfo {
 }
 
 const YouTubeMp3Player: React.FC<YouTubeMp3PlayerProps> = ({ 
-  youtubeLinks = [
-    'https://youtu.be/s3tZtnQvebg?list=OLAK5uy_kwBubkzb1wANXW6FrwpGBxR3bRN3uGmgM',
-    'https://youtu.be/5eAJWvxH_A4?list=OLAK5uy_kwBubkzb1wANXW6FrwpGBxR3bRN3uGmgM',
-    'https://youtu.be/piuovGiAFvo',
-  ]
+  youtubeLinks,
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
