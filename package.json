@@ -1,7 +1,7 @@
 {
   "name": "youtube-mp3-player",
   "private": false,
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "main": "./dist/youtube-mp3-player.umd.cjs",
   "module": "./dist/youtube-mp3-player.js",
