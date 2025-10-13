@@ -31,7 +31,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rickysegura/YouTubeMP3Player"
+    "url": "git+https://github.com/rickysegura/YouTubeMP3Player.git"
   },
   "scripts": {
     "dev": "vite",
