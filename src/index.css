@@ -9,12 +9,9 @@ body {
 }
 
 .app-container {
-  min-height: 100vh;
-  background-color: transparent;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  padding: 16px;
-  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   z-index: 9999;
+  position: relative;
 }
