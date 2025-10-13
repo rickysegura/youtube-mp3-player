@@ -16,4 +16,5 @@ body {
   grid-template-rows: repeat(2, 1fr);
   padding: 16px;
   gap: 16px;
+  z-index: 9999;
 }

@@ -8,7 +8,7 @@ declare global {
   }
 }
 
-interface YouTubeMp3PlayerProps {
+export interface YouTubeMp3PlayerProps {
   youtubeLinks?: string[];
 }
 
