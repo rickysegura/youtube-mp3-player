@@ -12,8 +12,9 @@ or
 
 ## Usage
 
-```
+```javascript
 import { YouTubeMp3Player } from 'youtube-mp3-player';
+import 'youtube-mp3-player/dist/youtube-mp3-player.css';
 
 export default function App() {
   return (
@@ -24,3 +25,5 @@ export default function App() {
   );
 }
 ```
+
+**Note:** Make sure to import the CSS file to apply the component styles.
