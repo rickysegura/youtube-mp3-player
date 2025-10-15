@@ -8,9 +8,12 @@ export default defineConfig({
   plugins: [
     react(),
     dts({
-      include: ['src/index.ts', 'src/YouTubeMp3Player.tsx'],
+      include: ['src/**/*.ts', 'src/**/*.tsx'],
       outDir: 'dist',
-      insertTypesEntry: true
+      insertTypesEntry: true,
+      rollupTypes: false,
+      staticImport: true,
+      tsconfigPath: './tsconfig.app.json'
     })
   ],
   build: {
